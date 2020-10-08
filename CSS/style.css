@@ -1,0 +1,325 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+
+		margin: 0;
+		padding: 0;	
+
+
+	}
+
+	header{
+		position: sticky;
+		top: 0;
+	}
+
+	.header1{
+		overflow: hidden;
+		width: 100%;
+		height: 40px;
+		background-color: #52df78;
+		margin: 0;
+		padding: 0;		
+			
+	}
+	
+	.icons_li{
+		display: inline-block;
+		float: right;
+		list-style: none;
+	}
+
+	.icons{
+		overflow: visible;
+		width: 0,5vw;
+		height: 3vmin;
+		margin-right: 30px;
+		margin-top: 20%;
+		display: inline-block;
+		
+	
+
+	}
+
+		.logo{
+			position: absolute;
+			top: 10px;
+			overflow: visible;
+			display: block;
+			left: 40%;
+  			width: 15vw;
+  			height: 30vmin;
+			background-position: center;
+  			background-attachment: local;
+  			background-color: white;
+  			border-radius: 30%;
+
+  			
+		}
+
+		.header2{
+			margin-top: 0;
+			overflow: visible;
+			display: inline-block;
+			width: 100%;
+			height: 70px;
+			float: left;
+			background-color: white;	
+							
+						
+		}
+
+		.nomes{
+			display: inline-block;
+			float: left;
+			list-style: none;
+			text-align: center;
+			padding-top: 0.5%;
+			margin-top: 0;
+			font-size: 25px;
+			font-family: 'Dancing Script', cursive;
+			font-style: normal;
+
+		}
+
+		.a1{
+			text-decoration: none;
+			padding: 15px 15px 15px 15px; 
+			display: inline-block;
+			margin: 0;
+			color: #659a25;
+		}
+
+
+		.a{
+			color: #659a25;
+
+
+		}
+
+		.a:visited{
+			color: #659a25;
+		}
+
+		.a:hover{
+			overflow: visible;
+			color: white;
+			background-color: #52df78;
+			height: 30px;
+			padding-bottom: 33px;
+		
+		}
+
+
+	.fundo{
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		background-image: url("../fundo/fundo.jpg");
+	}	
+
+	#section1{
+		width: 90%;
+		height: 1200px;
+		margin-left: 5%;
+		background-image: url("../imagens_site/Bolo (8).jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: scroll;
+	}
+
+	#section2{
+		width: 90%;
+		height: 800px;
+		margin-top: 50px;
+		margin-left: 5%;
+
+
+	}
+
+	.sobre_tex{
+		background-color: #dcc3e1; 
+		width: 30.4%;
+		height: 800px;
+		margin-left: px;
+		float: right;
+
+
+	}
+
+	h1{ 
+		margin-left: 0.5em;
+		margin-right: 0.5em;
+		text-align: justify;
+		
+		
+
+	 }
+
+	 h1 span{
+
+	 	color: rgba(200, 108, 180, 0.7);
+	 }
+
+	p{ 
+
+		margin-left: 1em;
+		margin-right: 1em;
+		letter-spacing:1px;
+		font-size: 26.5px;
+		font-family: 'Dancing Script', cursive;
+		font-style: normal;
+	
+
+	 }
+
+	.sobre_img{
+
+		
+    	float: left;
+		width: 65.4%;
+		height: 800px;		
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-image: url("../imagens_site/Bolo (13).jpg");
+	}
+
+	.fundo_bolo{
+		text-align: justify;
+	}
+
+	#section3{
+		width: 90%;
+		height: 330px;
+		margin-top: 50px;
+		margin-left: 5%;
+		padding: 0;
+
+	}
+
+	.bolo_img_tamanho:after {
+		content: '';
+		display: inline-block;
+		width: 100%;
+		height: 0;
+	}
+
+
+	.bolo_img_tamanho{
+		width: 37%;
+		height: 330px;
+		max-width:370px;
+    	max-height:330px;
+    	display: inline-block;
+
+
+	}
+
+	.bolo_img{
+		background-image: url("../imagens_site/Bolo (1).jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: scroll;
+		background-position: center;
+	}
+
+	.bolo_chef{
+		background-image: url("../imagens_site/chef (1).jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: scroll;
+		background-position: center;
+		margin-left: 47.6px;	
+		margin-right: 47.6px;
+	}
+
+	.bolo_img2{
+		
+		background-image: url("../imagens_site/Bolo (6).jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: scroll;
+		background-position: center;
+
+		margin-right: 0px;
+	}
+
+	#section4{
+		width: 100%;
+		height: 285px;
+		margin-top: 50px;
+		background-color: #52df78;
+	}
+
+	.contato_rod{
+		margin-left: 1em;
+		margin-right: 1em;
+		text-align: center;
+		letter-spacing:1px;
+		font-size: 20px;
+		font-family: 'Dancing Script', cursive;
+		font-style: normal;
+	}
+
+
+	.rodape_texto p{
+		font-size: 10px;
+		font-family: arial;
+		text-align: center;
+		padding-top: 20px;
+
+	}
+
+	.icons_li2{
+
+		overflow: visible;
+		position: relative;
+		float: right;
+		top: 5px;
+		right: 570px;
+		list-style: none;
+	}
+
+	.icons2{
+		overflow: visible;
+		width: 0,5vw;
+		height: 3vmin;
+		margin-right: 30px;
+		display: inline;	
+	}
+
+
+		/* determina o valor limite para executar o css da media 
+		@media screen and (max-width: 700px) {
+			.header{
+				background: gray;
+			}
+		}
+
+		/* determina o valor limite para executar o css da media 
+		@media screen and (max-width: 500px) {
+
+			.header{
+				background: red;
+			}
+
+			.logo{
+				float: none;
+				text-align: center;
+			}
+
+			.menu{
+				float: none;
+				margin-top: 20px;
+				text-align: center;
+			}
+
+			li{
+
+				float: none;
+				margin-bottom: 5px;
+				padding: 10px;
+			}*/
